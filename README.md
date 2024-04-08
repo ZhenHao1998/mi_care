@@ -1,16 +1,28 @@
 # mi_care
 
-A new Flutter project.
+Mi Care Mock Test
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Validator for Field
 
-A few resources to get you started if this is your first Flutter project:
+1. Email
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Empty || null
+- Email Regex
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Mobile
+
+- Empty || null
+- Mobile Regex(Malaysia) +60, 01 and length
+
+3. First Name/ Last Name
+
+- Empty || null
+- Less than 3
+
+Flow
+
+1. Key in all the fields
+2. Call Server(GET Method)
+3. Success/Fail based on statusCode
